@@ -104,3 +104,7 @@ sudo ufw allow in on tailscale0 to any port 8787 proto tcp comment 'Minecraft pa
 ```
 
 Não liberar a porta nas interfaces LAN/WAN ou encaminhá-la no roteador. A API também valida o proprietário em cada requisição, mesmo que uma política de rede mais ampla já exista.
+
+## Licença
+
+[MIT](LICENSE)
